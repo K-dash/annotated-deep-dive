@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "annotated-deep-dive"
+version = "0.1.0"
+description = ""
+authors = ["K'  <51281148+K-dash@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{ include = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.7.3"
+mypy = "^1.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
